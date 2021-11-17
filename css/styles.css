@@ -660,7 +660,6 @@ footer .item:not(:last-child) {
 .form-send {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
 }
 
 .send-btn {
@@ -672,8 +671,10 @@ footer .item:not(:last-child) {
   justify-content: center;
   margin-right: 0;
   margin-left: auto;
+  padding-top: 15px;
 }
 .modal-input-footer {
+  width: 358px;
   background-color: transparent;
   text-decoration: var(--bg-color);
   padding: 15px;
@@ -689,7 +690,13 @@ footer .item:not(:last-child) {
   border-color: var(--focus-color);
 }
 .send-wrap {
-  margin-left: 10px;
+  margin-left: 5px;
+}
+.footer-right-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
 }
 /* ===================backdrop============ */
 .backdrop {
@@ -866,11 +873,11 @@ footer .item:not(:last-child) {
   clip-path: inset(50%);
   margin: -1px;
 }
-/* .send-btn {
+.modal-send-btn {
   margin-top: 30;
   margin-left: auto;
   margin-right: auto;
-} */
+}
 ::-webkit-input-placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
